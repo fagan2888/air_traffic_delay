@@ -1,0 +1,29 @@
+US domestic airline data for the period 2016/06 and 2017/05.
+
+Please download the data from: https://goo.gl/eXvZph
+
+
+Fields included:
+
+```bash
+'YEAR', 'QUARTER', 'MONTH', 'DAY_OF_MONTH', 'DAY_OF_WEEK',
+'CARRIER', 'TAIL_NUM', 'FL_NUM', 'ORIGIN', 'ORIGIN_STATE_ABR',
+'ORIGIN_WAC', 'DEST', 'DEST_STATE_ABR', 'DEST_WAC', 'CRS_DEP_TIME',
+'DEP_TIME', 'DEP_TIME_BLK', 'TAXI_OUT', 'WHEELS_OFF', 'WHEELS_ON',
+'TAXI_IN', 'CRS_ARR_TIME', 'ARR_TIME', 'ARR_TIME_BLK', 'DIVERTED',
+'CRS_ELAPSED_TIME', 'ACTUAL_ELAPSED_TIME', 'AIR_TIME', 'DISTANCE',
+'DISTANCE_GROUP',
+
+'FL_DATE',
+'AIRLINE_ID',
+'ORIGIN_AIRPORT_ID', 'ORIGIN_CITY_NAME',
+'DEST_AIRPORT_ID', 'DEST_CITY_NAME'
+
+'DEP_DELAY', 'DEP_DELAY_NEW', 'DEP_DEL15', 'DEP_DELAY_GROUP',
+'ARR_DELAY', 'ARR_DELAY_NEW', 'ARR_DEL15', 'ARR_DELAY_GROUP',
+'CARRIER_DELAY', 'WEATHER_DELAY', 'NAS_DELAY', 'SECURITY_DELAY',
+'LATE_AIRCRAFT_DELAY', 'DELAYED'
+```
+
+
+For fields description, see [field_descriptions.csv](field_descriptions.csv).
